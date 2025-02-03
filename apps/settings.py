@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-    'django.contrib.humanize',
+    "django.contrib.humanize",
 ]
 
 MIDDLEWARE = [
@@ -81,14 +81,14 @@ DATABASES = {
     #     "ENGINE": "django.db.backends.sqlite3",
     #     "NAME": BASE_DIR / "db.sqlite3",
     # }
-    # "default": {
-    #     "ENGINE": "django.db.backends.mysql",
-    #     "NAME": "events",
-    #     "USER": "root",
-    #     "PASSWORD": "",
-    #     "HOST": "localhost",
-    #     "PORT": "3306",
-    # }
+    "default": {
+        "ENGINE": "django.db.backends.mysql",
+        "NAME": "machong",
+        "USER": "root",
+        "PASSWORD": "",
+        "HOST": "localhost",
+        "PORT": "3306",
+    }
     # "default": {
     #     "ENGINE": "django.db.backends.postgresql_psycopg2",
     #     "NAME": "events",
@@ -97,14 +97,14 @@ DATABASES = {
     #     "HOST": "localhost",
     #     "PORT": "3306",
     # }
-    "default": {
-        "ENGINE": os.environ.get("ENGINE"),
-        "NAME": os.environ.get("NAME"),
-        "USER": os.environ.get("USER"),
-        "PASSWORD": os.environ.get("PASSWORD"),
-        "HOST": os.environ.get("HOST"),
-        "PORT": os.environ.get("PORT"),
-    }
+    # "default": {
+    #     "ENGINE": os.environ.get("ENGINE"),
+    #     "NAME": os.environ.get("NAME"),
+    #     "USER": os.environ.get("USER"),
+    #     "PASSWORD": os.environ.get("PASSWORD"),
+    #     "HOST": os.environ.get("HOST"),
+    #     "PORT": os.environ.get("PORT"),
+    # }
 }
 
 
