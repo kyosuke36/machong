@@ -22,19 +22,19 @@
                     </div>
                     <div class="user__gender">
                         <h2>性別</h2>
-                        <input type="radio" name="gender" placeholder="男性">男性
-                        <input type="radio" name="gender" placeholder="女性">女性
+                        <input type="radio" name="gender" placeholder="男性" value="man">男性
+                        <input type="radio" name="gender" placeholder="女性" value="uman">女性
                     </div>
                     <div class="user__type">
                         <h2>目的</h2>
-                        <input type="radio" name="type">マッチョ
-                        <input type="radio" name="type">ダイエット
+                        <input type="radio" name="purpose" value="macho">マッチョ
+                        <input type="radio" name="purpose" value="diet">ダイエット
                     </div>
                     <div class="user__class">
                         <h2>クラス</h2>
-                        <input type="radio" name="class">初心者
-                        <input type="radio" name="class">中級者
-                        <input type="radio" name="class">上級者
+                        <input type="radio" name="level" value="under">初心者
+                        <input type="radio" name="level" value="middle">中級者
+                        <input type="radio" name="level" value="top">上級者
                     </div>
                     <div class="user__time">
                         <h2>時間</h2>
@@ -43,6 +43,9 @@
                             <option value="2">30分</option>
                             <option value="3">60分</option>
                         </select><br>
+                    </div>
+                    <div>
+                        <input type="text" name="email">LineアカウントのURL
                     </div>
                     <div class="user__submit">
                         <input type="submit" value="登録">
