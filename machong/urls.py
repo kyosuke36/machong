@@ -6,5 +6,4 @@ app_name = "machong"
 urlpatterns = [
     path("matching/", views.matching, name="matching"),
     path("settings/", views.settings, name="settings"),
-    
 ]
